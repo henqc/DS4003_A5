@@ -1,8 +1,6 @@
 #Install all needed dependencies
 import pandas as pd
-import numpy as np 
 import plotly.express as px
-import seaborn as sns
 from dash import Dash, dcc, html, Input, Output
 
 #Read in csv into a pandas data frame
