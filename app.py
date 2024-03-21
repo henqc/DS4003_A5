@@ -9,6 +9,7 @@ df = pd.read_csv("gdp_pcap.csv")
 stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css'] 
 #Initialize the Dash app
 app = Dash(__name__, external_stylesheets=stylesheets)
+server = app.server
 
 # Define a function to convert the k to thousands
 # Will take any instance of k and remove it and return the correct numeric version
